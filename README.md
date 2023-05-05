@@ -2,6 +2,12 @@
 
 ## SETUP INSTRUCTIONS
 
+- Get an API key for chatgpt from here:
+- https://platform.openai.com/account/api-keys
+
+- Get an API key for ElvenLabs from here:
+- https://beta.elevenlabs.io/ 
+
 ### Install Anaconda:
 Anaconda is a package manager for Python that includes many useful libraries and tools. It also provides a convenient way to manage Python environments. You can download the Anaconda installer from the official website: https://www.anaconda.com/products/individual
 
