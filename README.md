@@ -5,11 +5,6 @@
 ### Install Anaconda:
 Anaconda is a package manager for Python that includes many useful libraries and tools. It also provides a convenient way to manage Python environments. You can download the Anaconda installer from the official website: https://www.anaconda.com/products/individual
 
-### Add pygame via conda-forge:
-To install the Pygame library, you can use the conda-forge channel. Open a terminal or Anaconda prompt and type the following command:
-
-```conda install -c conda-forge pygame```
-
 ### Create a new environment:
 To create a new environment called "py39voice" with Python version 3.9, you can use the following command:
 
@@ -23,14 +18,18 @@ To activate the "py39voice" environment, type the following command:
 ### Install required packages:
 The following packages are required for this script to run:
 
+#### Add pygame via conda-forge:
+To install the Pygame library, you can use the conda-forge channel. Open a terminal or Anaconda prompt and type the following command:
+```conda config --add channels conda-forge```
+```conda install -c conda-forge pygame```
+
 - SpeechRecognition
 - OpenAI
 - requests
-- Pygame
 
 #### You can install them using the following command:
 
-```pip install SpeechRecognition openai requests pygame```
+```pip install SpeechRecognition openai requests```
 
 ## USAGE
 
