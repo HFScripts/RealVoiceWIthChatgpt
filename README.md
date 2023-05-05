@@ -20,8 +20,10 @@ The following packages are required for this script to run:
 
 #### Add pygame via conda-forge:
 To install the Pygame library, you can use the conda-forge channel. Open a terminal or Anaconda prompt and type the following command:
-```conda config --add channels conda-forge```
-```conda install -c conda-forge pygame```
+```
+conda config --add channels conda-forge
+conda install -c conda-forge pygame
+```
 
 - SpeechRecognition
 - OpenAI
